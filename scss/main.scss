@@ -13,7 +13,7 @@
   height: 505px;
   border: 1px solid black;
   margin-top: 60px;
-    .result {
+    .screen {
       width: 100%;
       height: 65px;
       border-bottom: 1px solid black;
@@ -33,11 +33,18 @@
         .button {
           width: 22%;
           height: 50px;
-          border: 1px solid black;
           margin-left: 15px;
-          margin-top: 20px;
           font-size: 40px;
           text-align: center;
+          position: relative;
+            input {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              font-size: 30px;
+            }
         }
         .button:active {
           box-shadow: 0 5px #666;
@@ -46,10 +53,10 @@
         .button:first-of-type {
           margin-left: 0;
         }
-        .sum {
+        .clear {
           width: 45.87%;
         }
-        .cancel {
+        .result {
           width: 45.87%;
         }
     }

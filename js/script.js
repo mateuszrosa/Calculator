@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded',function() {
 
-  let buttons = document.querySelectorAll('.button');
+  let numbers = document.querySelectorAll('.numbers');
   let input = document.querySelector('.result input');
   console.log(input);
 
-for(let i=0; i<buttons.length; i++) {
-  buttons[i].addEventListener('click', function() {
-    console.log(buttons[i].innerText);
-    input.value = buttons[i].innerText;
+for(let i=0; i<numbers.length; i++) {
+  numbers[i].addEventListener('click', function() {
+    console.log(numbers[i].innerText);
+    input.value += numbers[i].innerText;
   })
 }
 

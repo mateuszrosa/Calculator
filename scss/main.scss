@@ -3,45 +3,45 @@
 .head {
   border: 3px solid black;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .calc {
   width: 100%;
-  height: 800px;
+  height: 505px;
   border: 1px solid black;
   margin-top: 60px;
     .result {
       width: 100%;
-      height: 150px;
-      border: 1px solid black;
-    }
-    .input {
-      width: 100%;
-      height: 100px;
-      border: 1px solid black;
+      height: 65px;
+      border-bottom: 1px solid black;
     }
     .rows {
       width: 100%;
-      height: 100px;
+      height: 50px;
+      margin-top: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
         .button {
-          width: 15%;
-          height: 75px;
+          width: 22%;
+          height: 50px;
           border: 1px solid black;
           margin-left: 15px;
-          margin-top: 45px;
+          margin-top: 20px;
+          font-size: 40px;
+          text-align: center;
         }
         .button:first-of-type {
           margin-left: 0;
         }
         .sum {
-          width: 30%;
-          margin-left: 15px;
+          width: 46%;
+        }
+        .cancel {
+          width: 46%;
         }
     }
 }

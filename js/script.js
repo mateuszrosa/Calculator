@@ -1,20 +1,19 @@
 document.addEventListener('DOMContentLoaded',function() {
 
-  let numbers = document.querySelectorAll('.numbers');
-  let input = document.querySelector('.screen input');
-  let clear = document.querySelector('.clear');
+  let numbers = document.querySelectorAll('.numbers input');
+  let score = document.querySelector('.screen input');
+  let clear = document.querySelector('.clear input');
   let sum = document.querySelector('.sum');
-  let result = document.querySelector('.result');
-  console.log(result);
+  let result = document.querySelector('.result input');
 
 for(let i=0; i<numbers.length; i++) {
   numbers[i].addEventListener('click', function() {
-    var a = input.value += numbers[i].innerText;
-    console.log(a);
+    score.value += numbers[i].value;
   })
 }
 clear.addEventListener('click', function() {
-  input.value = input.value.slice(0, -1);
+  console.log(score.value);
+  score.value = score.value.slice(0, -1);
 })
 
 sum.addEventListener('click', function() {

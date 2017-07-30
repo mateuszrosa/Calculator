@@ -41,12 +41,8 @@ divide.addEventListener('click', function() {
   score.value += '/';
 })
 
-percent.addEventListener('click', function() {
-  score.value += '%';
-})
-
 result.addEventListener('click', function() {
-  score.value = eval(score.value);
+    score.value = eval(score.value);
 })
 
 })

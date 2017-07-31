@@ -17,7 +17,6 @@ for(let i=0; i<numbers.length; i++) {
   })
 }
 clear.addEventListener('click', function() {
-  console.log(score.value);
   score.value = '';
 })
 

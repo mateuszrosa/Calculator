@@ -2,9 +2,7 @@
 
 body {
   background-image: url('../images/Background.jpg');
-    @media (max-width: 425px) {
-      background-size: contain;
-    }
+  background-size: cover;
 }
 
 .head {

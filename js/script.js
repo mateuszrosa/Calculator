@@ -18,7 +18,7 @@ for(let i=0; i<numbers.length; i++) {
 }
 clear.addEventListener('click', function() {
   console.log(score.value);
-  score.value = score.value.slice(0, -1);
+  score.value = '';
 })
 
 dot.addEventListener('click', function() {

@@ -88,10 +88,16 @@ body {
             margin-left: 0;
           }
           .clear {
-            width: 49%;
+            width: 45.8%;
+              @media (max-width: 425px) {
+                width: 47%;
+              }
           }
           .result {
-            width: 49%;
+            width: 45.8%;
+              @media (max-width: 425px) {
+                width: 47%;
+              }
           }
       }
 }

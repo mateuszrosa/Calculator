@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded',function() {
 
+  console.log('test');
+
   let numbers = document.querySelectorAll('.numbers input');
   let score = document.querySelector('.screen input');
   let clear = document.querySelector('.clear input');
